@@ -30,3 +30,16 @@ A personal Brag Document drafting system.
    3. Specific outcomes with as much quantifiable impact as possible.
    4. Save to `/brag/draft/YYYY-MM-DD-[relevant title name].md`
    ```
+
+5. Launch the brag-reviewer sub-agent with:
+   ```
+   Review a brag document entry from:
+   [Provide the location of the brag draft saved by the brag-draft-writer sub-agent]
+
+   Generate:
+   A review of the brag document entry that includes positive and critical feedback. This should include:
+   1. Any spelling and grammatical fixes that should be made.
+   2. Any wording or language fixes that should be made.
+   3. Highlight if there is a lack of specific, quantifiable impact included. If this is lacking, suggest what kind of impact data would be useful to include.
+   4. Save to `/brag/draft/feedback/[brag document name]_feedback.md`
+   ```
